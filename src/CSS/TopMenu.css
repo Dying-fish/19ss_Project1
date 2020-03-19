@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    /*消除空白，设置字体*/
+    height:100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*导航栏样式设置*/
+.topmenu ul{  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    overflow: hidden;
+    background-color: #6699CC;
+}
+.topmenu li {
+    float: left;
+}
+.topmenu li a, .drop {
+    min-width:120px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px ;
+    text-decoration: none;
+}
+/*鼠标移动到条目时显示高亮*/
+.topmenu li a:hover, .dropdown:hover {
+    background-color: #006699;
+}
+
+/*突出当前所加界面*/
+.active{
+    background-color: #333366;
+}
+
+/*使个人中心处于右侧*/
+.dropdown{
+    float: right;
+}
+
+/*设置与隐藏下拉菜单内容*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+/*鼠标移至个人中心时显示下拉菜单*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*下来菜单样式变化*/
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+@media screen and (max-width: 1000px){
+    .topmenu li a, .drop {
+        min-width:100px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .topmenu li a, .drop {
+        min-width:80px;
+    }
+}

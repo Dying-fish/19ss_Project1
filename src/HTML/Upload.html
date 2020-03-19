@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>19ss_Web_Upload</title>
+<link rel="stylesheet" type="text/css" href="../CSS/TopMenu.css"/> 
+<link rel="stylesheet" type="text/css" href="../CSS/Import.css"/> 
+<link rel="stylesheet" type="text/css" href="../CSS/Footer.css"/>
+<link rel="stylesheet" type="text/css" href="../../font-awesome/css/font-awesome.min.css"/>
+<script src="../JavaScript/preview.js">
+</script>
+</head>
+<body>
+<!--导航栏-->  
+<div class="topmenu">
+  <ul>
+    <li><a href="Homepage.html"><i class="fa fa-first-order fa-fw"></i>&#160&#160首页</a></li>
+    <li><a href="Browse.html">浏览</a></li>
+    <li><a href="Search.html">搜索</a></li>
+    <!--下拉菜单-->
+    <div class="dropdown">
+      <a  href="../../index.html" class="drop"><i class="fa fa-user-circle fa-fw"></i> 个人中心</a>
+      <div class="dropdown-content">
+        <a href="Upload.html"><i class="fa fa-upload "></i> 上传</a>
+        <a href="Photograph.html"><i class="fa fa-folder "></i> 我的照片</a>
+        <a href="Favourite.html"><i class="fa fa-bookmark"></i> 我的收藏</a>
+        <a href="../../index.html"><i class="fa fa-sign-in"></i> 登入</a>
+      </div>
+    </div>
+  </ul>
+</div>
+<!--主体部分-->
+<div class="Frame">
+  <div class="Input">
+    <ul>
+      <!--标题-->
+      <li class="title">上传图片</li>
+      <li>
+        <div class="input">
+          <form action="" method="get">
+          <!--上传文件的部分-->
+          <div id="image">
+            <img src="" width="100%">
+          </div>
+            <!--上传按钮-->
+          <center><input id="upload" type="file" accept="image/*" onchange="showFile()"></center><br>
+          <!--输入图片信息-->
+          <span>图片标题:</span><br>
+          <input type="text"><br>
+          <span>图片描述:</span><br>
+          <textarea>写点东西……</textarea><br>
+          <span>拍摄国家:</span><br>
+          <input type="text"><br>
+          <span>拍摄城市:</span><br>
+          <input type="text"><br>
+          </form>
+          <!--提交部分-->
+          <input type="submit" value="提交" onclick="location.href='Photograph.html'">
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!--页脚-->
+<div class="footer">
+  <p>Copyright &#169 2020 Webfundamental Dantui Suisui. All Rights Reserved. 备案号：沪ICP备9034870</p>
+</div>
+</body>
+</html>

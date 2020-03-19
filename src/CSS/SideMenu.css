@@ -1,0 +1,142 @@
+/*左侧边栏*/
+.sidemenu{
+    flex: auto;
+    margin-right: 1%;
+}
+/*左侧留白一些*/
+.sidemenu div{
+    width:95%;
+    margin-bottom: 10px;
+    border-radius: 8px 8px 3px 3px;
+    overflow: hidden;
+    border-bottom: 1px solid #666666;
+}
+.sidemenu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidemenu li{
+    border-top:1px solid #CCCCCC;
+    border-left:1px solid #666666;
+    border-right:1px solid #666666;
+}
+.sidemenu li a{
+    display: block;
+    padding: 8px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    color: #003366;
+}
+/*悬浮时样式变化*/
+.sidemenu li a:hover{
+    background-color: #6699CC;
+    color:#FFFFFF;
+}
+.title-search{
+    display: flex;
+}
+/*搜索栏输入部分设置*/
+.title-search input{
+    min-width: 80%;
+    border: none;
+    font-size: 16px;
+    padding: 12px 0;
+}
+/*搜索栏按钮*/
+.title-search button{
+    padding: 0px 6px;
+    flex: auto;
+    cursor: pointer;
+    border: none;
+    border-left: 1px solid #666666;
+}
+/*多级选择栏区域*/
+.filter{
+    padding:1%;
+    flex:1 0 auto;
+}
+/*多级选择栏的设置*/
+select{
+    height: 90%;
+    width: 15%;
+    min-width: max-content;
+    font-size: 14px;
+    border-radius: 5px;
+}
+/*筛选按钮设置*/
+.filter input{
+    padding: 8px 12px;
+    font-size: medium;
+    font-weight: bold;
+    width: 30%;
+    min-width: max-content;
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom,#99CC00,#339933);
+    border: 1px solid #006633;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+/*照片展览，flex布局居中排布*/
+.photoshow{
+    display: flex;
+    flex-wrap: wrap;
+    padding:12px 1.5% 0;
+    justify-content: center;
+}
+.photoshow div{
+    flex:auto;
+    margin-bottom: 1%;
+}
+/*图片大小设置*/
+.thumb{
+    margin: auto;
+    overflow: hidden;
+    background-position:center;
+    background-size: cover;
+    width:16.5vw;
+    height:16.5vw;
+    border-radius: 3px;
+}
+.thumb a{
+    display: block;
+    width:16.5vw;
+    height:16.5vw;
+}
+
+@media screen and (max-width: 1000px){
+    .sidemenu div{
+        min-width: 180px;
+    }
+    .title-search input{
+        padding: 9px 0px;
+        width:120px;
+    }
+    .thumb{
+        width:19.5vw;
+        height:19.5vw;
+    }
+    .thumb a{
+        width:19.5vw;
+        height:19.5vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .sidemenu div{
+        min-width: 100px;
+    }
+    .title-search input{
+        padding: 6px 0px;
+        width: 60px;
+    }
+    .thumb{
+        width:32vw;
+        height:32vw;
+    }
+    .thumb a{
+        width:32vw;
+        height:32vw;
+    }
+}

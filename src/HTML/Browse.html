@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>19ss_Web_Browse</title>
+<link rel="stylesheet" type="text/css" href="../CSS/TopMenu.css"/> 
+<link rel="stylesheet" type="text/css" href="../CSS/SideMenu.css"/>
+<link rel="stylesheet" type="text/css" href="../CSS/Frame.css"/>
+<link rel="stylesheet" type="text/css" href="../CSS/Footer.css"/>
+<link rel="stylesheet" type="text/css" href="../../font-awesome/css/font-awesome.min.css"/>
+<script src="../JavaScript/linkage.js">
+</script>
+</head>
+<body>
+<!--导航栏-->  
+<div class="topmenu">
+  <ul>
+    <li><a href="Homepage.html"><i class="fa fa-first-order fa-fw"></i>&#160&#160首页</a></li>
+    <li><a href="Browse.html" class="active">浏览</a></li>
+    <li><a href="Search.html">搜索</a></li>
+    <!--下拉菜单-->
+    <div class="dropdown">
+      <a  href="../../index.html" class="drop"><i class="fa fa-user-circle fa-fw"></i> 个人中心</a>
+      <div class="dropdown-content">
+        <a href="Upload.html"><i class="fa fa-upload "></i> 上传</a>
+        <a href="Photograph.html"><i class="fa fa-folder "></i> 我的照片</a>
+        <a href="Favourite.html"><i class="fa fa-bookmark"></i> 我的收藏</a>
+        <a href="../../index.html"><i class="fa fa-sign-in"></i> 登入</a>
+      </div>
+    </div>
+  </ul>
+</div>
+
+
+<div class="Frame">
+<!--左侧边栏--> 
+  <div class="sidemenu">
+    <!--搜索栏-->
+    <div class="Search">
+      <ul>
+        <li class="title">标题浏览</li>
+        <li class="title-search">
+          <input type="text" name="search" placeholder="搜索…">
+          <button onclick="alert('已搜索出相应照片')"><i class="fa fa-search"></i></button>
+        </li>
+      </ul>
+    </div>
+    <!--热门国家部分-->
+    <div class="Country">
+      <ul>
+        <li class="title">热门国家</li>
+        <li onclick="alert('已刷新出该国家的照片')"><a href="" onclick="已跳转">俄罗斯</a></li>
+        <li onclick="alert('已刷新出该国家的照片')"><a href="" onclick="已跳转">罗马</a></li>
+        <li onclick="alert('已刷新出该国家的照片')"><a href="" onclick="已跳转">奥斯曼</a></li>
+        <li onclick="alert('已刷新出该国家的照片')"><a href="" onclick="已跳转">法兰西</a></li>
+        <li onclick="alert('已刷新出该国家的照片')"><a href="" onclick="已跳转">大不列颠</a></li>
+      </ul>
+    </div>
+    <!--热门城市部分-->
+    <div class="City">
+      <ul>
+        <li class="title">热门城市</li>
+        <li onclick="alert('已刷新出该城市的照片')"><a href="" onclick="已跳转">格拉摩根</a></li>
+        <li onclick="alert('已刷新出该城市的照片')"><a href="" onclick="已跳转">君士坦丁堡</a></li>
+        <li onclick="alert('已刷新出该城市的照片')"><a href="" onclick="已跳转">圣彼得堡</a></li>
+        <li onclick="alert('已刷新出该城市的照片')"><a href="" onclick="已跳转">巴黎</a></li>
+        <li onclick="alert('已刷新出该城市的照片')"><a href="" onclick="已跳转">北海道</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--主体-->
+  <div class="content">
+    <ul>
+      <!--筛选栏-->
+      <li class="title">筛选</li>
+      <li class="information">
+        <!--选项-->
+        <form name="form1" action="" class="filter">
+          <select name="theme">
+            <option value="0">请选择主题</option>
+            <option value="1">雪景</option>
+            <option value="2">建筑</option>
+            <option value="3">雨景</option>
+            <option value="4">人文</option>
+          </select>
+          <select id="country" name="country" onchange="changeSelect()">
+            <option value="0">请选择国家</option>
+            <option value="1">中国</option>
+            <option value="2">日本</option>
+            <option value="3">美国</option>
+            <option value="4">俄罗斯</option>
+          </select>
+          <select id="city" name="city">
+            <option value="">请选择城市</option>
+          </select>
+          <input type="submit" value="筛选" onclick="alert('已筛选出符合要求的照片')">
+        </form>
+      </li>
+      <li  class="information">
+        <!--照片展览-->
+        <div class="photoshow">
+          <div>
+            <div class="thumb" style="background-image: url(../../images/small/5856654945.jpg);">
+            <a href="Details.html"></a></div>
+          </div>
+          <div>
+            <div class="thumb" style="background-image: url(../../images/small/5855174537.jpg);">
+            <a href="Details.html"></a></div>
+          </div>
+          <div>
+            <div class="thumb" style="background-image: url(../../images/small/6119143988.jpg);">
+            <a href="Details.html"></a></div>
+          </div>
+          <div>
+            <div class="thumb" style="background-image: url(../../images/small/8152020963.jpg);">
+            <a href="Details.html"></a></div>
+          </div>
+          <div>
+            <div class="thumb" style="background-image: url(../../images/small/9496787858.jpg);">
+            <a href="Details.html"></a></div>
+          </div>
+          <div>
+            <div class="thumb" style="background-image: url(../../images/small/9504609042.jpg);">
+            <a href="Details.html"></a></div>
+          </div>
+          <div>
+            <div class="thumb" style="background-image: url(../../images/small/9504451722.jpg);">
+            <a href="Details.html"></a></div>
+          </div>
+          <div>
+            <div class="thumb" style="background-image: url(../../images/small/6115548152.jpg);">
+            <a href="Details.html"></a></div>
+          </div>
+          <div>
+            <div class="thumb" style="background-image: url(../../images/small/222223.jpg);">
+            <a href="Details.html"></a></div>
+          </div>
+          <div>
+            <div class="thumb" style="background-image: url(../../images/small/9498381010.jpg);">
+            <a href="Details.html"></a></div>
+          </div>
+          <div>
+            <div class="thumb" style="background-image: url(../../images/small/5855729828.jpg);">
+            <a href="Details.html"></a></div>
+          </div>
+          <div>
+            <div class="thumb" style="background-image: url(../../images/small/6114907897.jpg);">
+            <a href="Details.html"></a></div>
+          </div>
+          <!--页码-->
+          <div class="pagebutton">
+            <ul>
+              <li onclick="alert('图片已刷新')"><a href="#">&laquo</a></li>
+              <li onclick="alert('图片已刷新')"><a href="#" class="active">1</a></li>
+              <li onclick="alert('图片已刷新')"> <a href="#">2</a></li>
+              <li onclick="alert('图片已刷新')"> <a href="#">3</a></li>
+              <li onclick="alert('图片已刷新')"> <a href="#">4</a></li>
+              <li onclick="alert('图片已刷新')"> <a href="#">5</a></li>
+              <li onclick="alert('图片已刷新')"><a href="#">&raquo</a></li>
+            </ul>
+          </div>
+        </div></li>
+      </ul>
+  </div>
+</div>
+
+<!--页脚--> 
+<div class="footer">
+  <p>Copyright &#169 2020 Webfundamental Dantui Suisui. All Rights Reserved. 备案号：沪ICP备9034870</p>
+</div>
+</body>
+</html>

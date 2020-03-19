@@ -1,0 +1,114 @@
+/*头图*/
+.main_image img{
+    width:100%;
+}
+/*跟浏览器两侧保持一定距离，不显得太满*/
+.MainPage{
+    padding: 5px 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+/*标语*/
+h1{
+    color: #006699;
+    font-size: xx-large;
+    text-align: center;
+}
+/*拉近标题与文字距离*/
+h2{
+    margin-bottom: -0.8%;
+}
+/*图片相框的设置*/
+.recommend{
+    color:#333333;
+    margin:0.5% 1% 1% 1%;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 1%;
+    width:29vw;
+    background-image:linear-gradient(to bottom right,#0099CC,#6699CC);
+    opacity: 0.9;
+}
+.recommend p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+/*固定每张图片的宽度与高度，使其呈正方形*/
+.img{
+    margin: auto;
+    width: 27vw;
+    height: 27vw;
+    overflow: hidden;
+    background-position:center;
+    background-size: cover;
+    border-radius: 8px;
+}
+/*链接区域大小与图片大小保持一致*/
+.img a{
+    display: block;
+    width: 27vw;
+    height: 27vw;
+}
+/*辅助图标*/
+#arrowup{
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 4px;
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    display: block;
+    right: 10px;
+    bottom:100px;
+    cursor: pointer;
+    z-index:9999;
+}
+#refresh{
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 4px;
+    width: 42px;
+    height: 42px;
+    display: block;
+    position: fixed;
+    right: 10px;
+    bottom:50px;
+    cursor: pointer;
+    z-index:9999;
+}
+@media screen and (max-width: 1000px){
+    .recommend{
+        width: 43.5vw;
+        padding:1% 2%;
+    }
+    .img{
+        width:40vw;
+        height:40vw;
+    }
+    .img a{
+        width:40vw;
+        height:40vw;
+    }
+}
+@media screen and (max-width: 600px){
+    .recommend{
+        width: 95vw;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .img{
+        width:90vw;
+        height:90vw;
+    }
+    .img a{
+        width:90vw;
+        height:90vw;
+    }
+}

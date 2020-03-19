@@ -1,0 +1,100 @@
+/*将html与body的高度设置成100%，使其充满整个屏幕*/
+html{
+    height: 100%;
+}
+/*设置margin，padding，消除空白，设置字体、背景*/
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+/*用flex布局，将剩余空间全赋给主体区域*/
+.logo{
+    flex: 1 0 auto;
+    padding-top: 5%;
+    text-align: center;
+    color:#333366;
+    min-height: 100%;
+}
+/*标语设置*/
+#xll{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #333333;
+    font-weight: bold;
+}
+/*居中文字设置*/
+.logo p{
+    font-size: 16px;
+    font-weight: normal;
+}
+/*超链接样式*/
+.logo a{
+    text-decoration: none;
+    color: #6699FF;
+}
+/*登入/注册界面设置*/
+.account{
+    text-align: left;
+    border: 1px solid #999999;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    margin:1% 35% 0;
+    font-size: 18px;
+    font-weight: 550;
+    padding: 2% 2% 1.5%;
+    color: #336699;
+}
+/*输入框设置*/
+.account input{
+    margin: 3% 0px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 5px 12px;
+}
+/*提交按钮设置，用渐变色使按钮突出*/
+#jump{
+    width: 100%;
+    margin: 3% 0 0;
+    font-size: 18px;
+    font-weight: 550;
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom,#99CC00,#339933);
+    border: 1px solid #006633;
+    cursor: pointer;
+}
+/*页尾设置，flex设为0 0 auto，占据空间是其原本空间大小*/
+.footer{
+    padding-left: 1.5%;
+    width: 100%;
+    font-size: 12px;
+    flex: 0 0 auto;
+}
+@media screen and (max-width: 1000px){
+    #xll{
+    font-size: 24px;
+    }
+    /*使页脚跟在登录/注册栏后面*/
+    .logo{
+        flex:0 0 auto;
+    }
+    .logo p{
+        font-size: 20px;
+    }
+    .account{
+    margin:1% 20% 0;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .account{
+        margin:1% 10% 0;
+        }
+}

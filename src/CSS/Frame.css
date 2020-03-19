@@ -1,0 +1,153 @@
+/*主体的最外层*/
+.Frame{
+    padding: 25px 1.5% 5px;
+    display: flex;
+}
+/*主体部分*/
+.content{
+    flex: auto;
+}
+/*标题*/
+.title{
+  padding: 12px;
+  font-size: large;
+  font-weight: bold;
+  background-color:#336699;
+  color:white;
+}
+
+.content ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom:10px;
+  border-radius: 12px;
+  overflow: hidden;
+  border-bottom: 1px solid #666666;
+}
+/*照片展览*/
+.information{
+  border-top:1px solid #CCCCCC;
+  border-left:1px solid #666666;
+  border-right:1px solid #666666;
+  display: flex;
+  flex-wrap: nowrap;
+}
+/*缩略图部分*/
+#images{
+  flex:auto;
+  padding:10px 1.5%;
+}
+.images{
+  width: 24vw;
+  height:18vw;
+  min-width: 240px;
+  min-height: 180px;
+  margin: auto;
+  overflow: hidden;
+  background-position:center;
+  background-size: cover;
+  border-radius: 1px;
+}
+.images a{
+  display: block;
+  widows: 24vw;
+  height:18vw;
+  min-width: 240px;
+  min-height: 180px;
+}
+/*缩略图文字部分*/
+.word{
+  flex: auto;
+  padding: 1px 5% 10px 1%;
+}
+.word p{
+  display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 4;
+overflow: hidden;
+}
+.Date{
+  color: lightslategray;
+  font-size: small;
+}
+/*设置按钮*/
+input[type=submit]{
+  padding: 8px 12px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  color: #FFFFFF;
+  border-radius: 3px;
+  width: 10%;
+  min-width: fit-content;
+}
+/*设置删除，收藏的按钮颜色*/
+.collection, .delete{
+  background-image: linear-gradient(to bottom,#FF6666,#CC3333);
+  border: 1px solid #993333;
+}
+/*设置修改的按钮颜色*/
+.alter{
+  margin-right:1.5%;
+  background-image: linear-gradient(to bottom,#6666FF,#003399);
+  border: 1px solid #000066;
+}
+/*翻页按钮*/
+#pagebutton{
+  border-left:1px solid #666666;
+  border-right:1px solid #666666;
+}
+.pagebutton{
+  text-align: center;
+}
+.pagebutton ul{
+  border: none;
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin-top: 10px;
+  text-align: center;
+}
+.pagebutton li {
+  border:none;
+  display: inline-flex;
+  text-align: center;
+}
+.pagebutton li a {
+  float: left;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  color: #333399;
+  border: 1px solid transparent;
+  margin:0px 2px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 100%;
+}
+.pagebutton li a.active {
+  background-color: #99CCFF;
+  cursor: default;
+}
+.pagebutton li a:hover {
+  background-color: #99CCFF;
+}
+
+@media screen and (max-width: 1000px){
+  .images{
+    width: 40vw;
+    height:30vw;
+  }
+  .images a{
+    widows: 40vw;
+    height:30vw;
+  }
+  .word h2{
+    font-size: 20px;
+  }
+  .word p{
+    font-size: 16px;
+  }
+}

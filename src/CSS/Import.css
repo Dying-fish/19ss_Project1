@@ -1,0 +1,85 @@
+/*主体的最外层*/
+.Frame{
+    padding: 25px 1.5% 5px;
+}
+/*标题样式*/
+.title{
+    padding: 12px;
+    font-size: large;
+    font-weight: bold;
+    background-color:#336699;
+    color:white;
+}
+/*输入界面设置*/  
+.Input{
+    flex: auto;
+}
+.Input ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom:10px;
+    border-radius: 12px;
+    overflow: hidden;
+    border-bottom: 1px solid #666666;
+}
+.input{
+    padding:20px;
+    border-top:1px solid #CCCCCC;
+    border-left:1px solid #666666;
+    border-right:1px solid #666666;
+}
+/*文字输入部分*/
+.input input[type=text]{
+    margin: 10px 0px;
+    width: 95%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 5px 12px;
+}
+/*设置按钮*/
+input[type=submit]{
+    padding: 8px 12px;
+    font-size: medium;
+    font-weight: bold;
+    width: 15%;
+    min-width: fit-content;
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom,#99CC00,#339933);
+    border: 1px solid #006633;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*动画效果（菜鸟驿站）*/
+#block input[type=text]{
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    width: 50%;
+}
+#block input[type=text]:focus{
+    width: 95%;
+}
+/*字体大小*/
+.input span{
+    font-size: 18px;
+}
+/*文本框样式设置*/
+textarea{
+    margin:1% 0px;
+    height: 60px;
+    width: 95%;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 5px 12px;
+    resize:none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+}
+#image{
+    min-height:100px;
+    text-align: center;
+    margin-bottom: 1%;
+}

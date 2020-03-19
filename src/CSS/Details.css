@@ -1,0 +1,132 @@
+/*主体的最外层*/
+.Main{
+    padding: 25px 1.5% 5px;
+}
+/*主体部分设置*/
+#frame{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom:10px;
+    border-radius: 12px;
+    overflow: hidden;
+    border-bottom: 1px solid #666666;
+}
+#frame>li{
+    border-right: 1px solid #666666;
+    border-left: 1px solid #666666;
+}
+/*标题*/
+.title{
+    padding: 12px;
+    font-size: large;
+    font-weight: bold;
+    background-color:#336699;
+    color:white;
+}
+/*拉近图片标题与上方距离*/
+h2{
+    margin: -3px 0px;
+    padding: 15px 0px 12px;
+    text-align: center;
+}
+.display{
+    display: flex;
+}
+#img{
+    padding:10px 3%;
+}
+/*图片信息部分设置，右侧留白一部分*/
+.information{
+    padding-right: 5%;
+    flex:auto;
+    display: flex;
+    flex-direction: column;
+}
+#author{
+    border-radius: 10px;
+    border: 1px solid #999999;
+    margin: 10px 0px;
+    padding: 10px 1%;
+    height: 60px;
+}
+/*使作者名称居中*/
+#author span{
+    margin: 20px 0;
+    font-size: 18px;
+}
+/*图片tag部分*/
+#tags{
+    border-radius: 10px;
+    border: 1px solid #999999;
+    margin: 10px 0px;
+    margin-bottom:10px;
+    list-style-type: none;
+    border: 1px solid #999999;
+    padding: 0;
+    overflow: hidden;
+}
+#tags li{
+    border-top: 1px solid #999999;
+    padding: 5px 1%;
+}
+/*小标题*/
+#title{
+    font-weight:bold;
+    background-color:whitesmoke;
+    color:#666666;
+    border-top: none !important;
+}
+/*图片描述*/
+#intro{
+    border-top: 1px solid #999999;
+    padding:0px 3%;
+}
+/*上传日期格式*/
+time{
+    float: right;
+    font-size: 14px;
+    color: #999999;
+}
+/*按钮*/
+button{
+    padding: 8px 12px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+  }
+/*收藏*/
+#collect{
+    margin: 10px 0px;
+    background-image: linear-gradient(to bottom,#FF6666,#CC3333);
+    border: 1px solid #993333;
+}
+/*关注拍摄者*/
+#follow{
+    width:30%;
+    max-width:120px;
+    min-width: max-content;
+    float: right;
+    background-image: linear-gradient(to bottom,#6699FF,royalblue);
+    border: 1px solid royalblue;
+}
+@media screen and (max-width: 1000px){
+    .title{
+        font-size: 16px;
+    }
+    .information{
+        padding-right: 1%;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+    #collect{
+        margin-bottom: 20px;
+    }
+}

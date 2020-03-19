@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>19ss_Web_Details</title>
+<link rel="stylesheet" type="text/css" href="../CSS/TopMenu.css"/> 
+<link rel="stylesheet" type="text/css" href="../CSS/Details.css"/> 
+<link rel="stylesheet" type="text/css" href="../CSS/Footer.css"/>
+<link rel="stylesheet" type="text/css" href="../../font-awesome/css/font-awesome.min.css"/>
+</head>
+<body>
+<!--导航栏-->  
+<div class="topmenu">
+  <ul>
+    <li><a href="Homepage.html"><i class="fa fa-first-order fa-fw"></i>&#160&#160首页</a></li>
+    <li><a href="Browse.html">浏览</a></li>
+    <li><a href="Search.html">搜索</a></li>
+    <!--下拉菜单-->
+    <div class="dropdown">
+      <a  href="../../index.html" class="drop"><i class="fa fa-user-circle fa-fw"></i> 个人中心</a>
+      <div class="dropdown-content">
+        <a href="Upload.html"><i class="fa fa-upload "></i> 上传</a>
+        <a href="Photograph.html"><i class="fa fa-folder "></i> 我的照片</a>
+        <a href="Favourite.html"><i class="fa fa-bookmark"></i> 我的收藏</a>
+        <a href="../../index.html"><i class="fa fa-sign-in"></i> 登入</a>
+      </div>
+    </div>
+  </ul>
+</div>
+<!--主体部分-->
+<div class="Main">
+  <ul id="frame">
+    <!--标题-->
+    <li class="title">照片详情</li>
+    <li>
+      <!--照片标题-->
+      <h2>凛冬已至</h2>
+      <div class="display">
+        <!--图片-->
+        <div id="img">
+          <img src="../../images/medium/6592294487.jpg">
+        </div>
+        <!--图片信息-->
+        <div class="information">
+          <!--拍摄者者-->
+          <div id="author">
+            <i class="fa fa-user-circle-o fa-2x"></i>&#160&#160&#160<span>雪灵灵</span>
+            <button id="follow" onclick="alert('已关注')">+ 关注</button>
+          </div>
+          <!--图片tag-->
+          <ul id="tags">
+            <li id="title">标签&#160&#160<i class="fa fa-tags"></i></li>
+            <li>主题：雪景</li>
+            <li>国家：俄罗斯</li>
+            <li>城市：莫斯科</li>
+          </ul>
+          <!--图片热度-->
+          <ul class="fa-ul" id="tags">
+            <li id="title">热度&#160&#160<i class="fa fa-fire"></i></li>
+            <li><i class="fa-li fa fa-eye"></i>浏览：1w+</li>
+            <li><i class="fa-li fa fa-commenting"></i>评论：233</li>
+            <li><i class="fa-li fa fa-heart"></i>收藏：114</li>
+          </ul>
+          
+          <button id="collect" onclick="alert('已收藏')"><i class="fa fa-heart"></i>&#160&#160&#160收藏</button>
+          </div>
+    </li>
+    <!--图片描述-->
+    <li id="intro">
+      <h3>图片描述</h3>
+      <p>“你锯倒这棵树用了多长时间？”<br>
+        “不到十分钟吧。”<br>
+        “它多少岁了？”<br>
+        “不知道，数数它的年轮呗。”<br>
+        “我数了，三百岁，三百多年啊，它发芽的时候还是明朝呢，它经历过多少风雨，见证过多少事，可你只用几分钟就把它锯倒了，你真没感到什么？”<br>
+        “你想让我感到什么？不就是一棵树吗？这片林子里最不缺的就是树，比它年长的老松多得是！”<br>
+        “你消灭这个文明用了多长时间？”<br>
+        “不到十天吧。”<br>
+        “它多少岁了？”<br>
+        “不知道，测一测它的生物化石呗。”<br>
+        “我测过了，三十多亿岁，三十多亿年啊，它诞生的时候还是现在宇宙寿命的四分之一呢，它经历过多少风雨，见证过多少事，可你只用了几天时间就把它降到了二维，你真没感到什么？”<br>
+        “你想让我感到什么？不就是一个文明吗？这片宇宙里最不缺的就是文明，比它高级的文明多得是！”</p>
+      <time>上传时间：2020-2-30</time>
+    </li>
+  </ul>
+</div>
+<!--页脚-->
+<div class="footer">
+  <p>Copyright &#169 2020 Webfundamental Dantui Suisui. All Rights Reserved. 备案号：沪ICP备9034870</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+/*大部分网页的页脚部分*/
+.footer p{
+    margin-left: 1.5%;
+    font-size: xx-small;
+}
+/*主页的页脚部分*/
+#footer{
+    display: flex;
+    width: 100%;
+    padding:8px 8px 8px 2%;
+    background-color: #6699CC;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+#footer p{
+    flex-grow: 1;
+    text-align: center;
+    font-size: x-small;
+}
+.section{
+    text-align: center;
+    width: 25%;
+}
+.section ul{
+    list-style-type: none;
+}
+.section li{
+    margin-top: 5%;
+}
+.section li a{
+    color:white;
+    text-decoration: none;
+}
+.section li i{
+    margin: 1% 2%;
+}
+/*二维码显示在最右侧*/
+.wechat{
+    text-align: right;
+}
+/*二维码*/
+.section img{
+    width: 100%;
+    max-width:110px;
+}
+@media screen and (max-width: 600px){
+    #footer{
+        padding: 8px 0;
+    }
+    .section img{
+        width: 100%;
+        max-width:90px;
+    }
+}
