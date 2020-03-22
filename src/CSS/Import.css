@@ -40,7 +40,7 @@
     padding: 5px 12px;
 }
 /*设置按钮*/
-input[type=submit]{
+input[type=button]{
     padding: 8px 12px;
     font-size: medium;
     font-weight: bold;
@@ -74,12 +74,21 @@ textarea{
     border-radius: 4px;
     font-size: 16px;
     padding: 5px 12px;
+    /*禁止缩放*/
     resize:none;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 18px;
 }
+/*上传图片设置*/
 #image{
     min-height:100px;
     text-align: center;
     margin-bottom: 1%;
+}
+
+@media screen and (max-width: 600px){
+    .input input[type=button]{
+        width:50%;
+        margin:0px 25%;
+    }
 }

@@ -33,8 +33,14 @@ h2{
 .display{
     display: flex;
 }
+/*图片居中*/
 #img{
-    padding:10px 3%;
+    display: flex;
+    align-items: center;
+    padding:0 3%;
+}
+img{
+    align-items: center;
 }
 /*图片信息部分设置，右侧留白一部分*/
 .information{
@@ -43,24 +49,12 @@ h2{
     display: flex;
     flex-direction: column;
 }
-#author{
-    border-radius: 10px;
-    border: 1px solid #999999;
-    margin: 10px 0px;
-    padding: 10px 1%;
-    height: 60px;
-}
-/*使作者名称居中*/
-#author span{
-    margin: 20px 0;
-    font-size: 18px;
-}
-/*图片tag部分*/
+/*右侧信息部分*/
 #tags{
     border-radius: 10px;
     border: 1px solid #999999;
     margin: 10px 0px;
-    margin-bottom:10px;
+    margin-bottom:5px;
     list-style-type: none;
     border: 1px solid #999999;
     padding: 0;
@@ -90,6 +84,7 @@ time{
 }
 /*按钮*/
 button{
+    margin: 5px 10%;
     padding: 8px 12px;
     font-size: medium;
     font-weight: bold;
@@ -100,16 +95,11 @@ button{
   }
 /*收藏*/
 #collect{
-    margin: 10px 0px;
     background-image: linear-gradient(to bottom,#FF6666,#CC3333);
     border: 1px solid #993333;
 }
 /*关注拍摄者*/
 #follow{
-    width:30%;
-    max-width:120px;
-    min-width: max-content;
-    float: right;
     background-image: linear-gradient(to bottom,#6699FF,royalblue);
     border: 1px solid royalblue;
 }
@@ -117,8 +107,23 @@ button{
     .title{
         font-size: 16px;
     }
-    .information{
+    #img{
         padding-right: 1%;
+        padding-left: 1%;
+    }
+    img{
+        width: 100%;
+        align-items: center;
+    }
+    .information{
+        min-width: 120px;
+        padding-right: 1%;
+    }
+    #author {
+        font-size: 16px;
+    }
+    button{
+        margin: 5px 0;
     }
     h3{
         font-size: 16px;
@@ -128,5 +133,8 @@ button{
     }
     #collect{
         margin-bottom: 20px;
+    }
+    #follow{
+        margin-bottom: 0px;
     }
 }

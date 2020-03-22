@@ -31,7 +31,6 @@
   </ul>
 </div>
 
-
 <div class="Frame">
 <!--左侧边栏--> 
   <div class="sidemenu">
@@ -48,23 +47,24 @@
     <!--热门国家部分-->
     <div class="Country">
       <ul>
-        <li class="title">热门国家</li>
-        <li onclick="alert('已刷新出该国家的照片')"><a href="" onclick="已跳转">俄罗斯</a></li>
-        <li onclick="alert('已刷新出该国家的照片')"><a href="" onclick="已跳转">罗马</a></li>
-        <li onclick="alert('已刷新出该国家的照片')"><a href="" onclick="已跳转">奥斯曼</a></li>
-        <li onclick="alert('已刷新出该国家的照片')"><a href="" onclick="已跳转">法兰西</a></li>
-        <li onclick="alert('已刷新出该国家的照片')"><a href="" onclick="已跳转">大不列颠</a></li>
+        <li class="title">热门国家</li> 
+        <!--用空的超链接方便后续增加新页面-->
+        <li onclick="alert('已刷新出该国家的照片')"><a href="">俄罗斯</a></li>
+        <li onclick="alert('已刷新出该国家的照片')"><a href="">罗马</a></li>
+        <li onclick="alert('已刷新出该国家的照片')"><a href="">奥斯曼</a></li>
+        <li onclick="alert('已刷新出该国家的照片')"><a href="">法兰西</a></li>
+        <li onclick="alert('已刷新出该国家的照片')"><a href="">大不列颠</a></li>
       </ul>
     </div>
     <!--热门城市部分-->
     <div class="City">
       <ul>
         <li class="title">热门城市</li>
-        <li onclick="alert('已刷新出该城市的照片')"><a href="" onclick="已跳转">格拉摩根</a></li>
-        <li onclick="alert('已刷新出该城市的照片')"><a href="" onclick="已跳转">君士坦丁堡</a></li>
-        <li onclick="alert('已刷新出该城市的照片')"><a href="" onclick="已跳转">圣彼得堡</a></li>
-        <li onclick="alert('已刷新出该城市的照片')"><a href="" onclick="已跳转">巴黎</a></li>
-        <li onclick="alert('已刷新出该城市的照片')"><a href="" onclick="已跳转">北海道</a></li>
+        <li onclick="alert('已刷新出该城市的照片')"><a href="">格拉摩根</a></li>
+        <li onclick="alert('已刷新出该城市的照片')"><a href="">君士坦丁堡</a></li>
+        <li onclick="alert('已刷新出该城市的照片')"><a href="">圣彼得堡</a></li>
+        <li onclick="alert('已刷新出该城市的照片')"><a href="">巴黎</a></li>
+        <li onclick="alert('已刷新出该城市的照片')"><a href="">北海道</a></li>
       </ul>
     </div>
   </div>
@@ -83,13 +83,15 @@
             <option value="3">雨景</option>
             <option value="4">人文</option>
           </select>
+          <!--国家选项-->
           <select id="country" name="country" onchange="changeSelect()">
-            <option value="0">请选择国家</option>
-            <option value="1">中国</option>
-            <option value="2">日本</option>
-            <option value="3">美国</option>
-            <option value="4">俄罗斯</option>
+            <option>请选择国家</option>
+            <option value="China">中国</option>
+            <option value="Japan">日本</option>
+            <option value="USA">美国</option>
+            <option value="Russia">俄罗斯</option>
           </select>
+          <!--城市选项-->
           <select id="city" name="city">
             <option value="">请选择城市</option>
           </select>
@@ -166,7 +168,7 @@
 
 <!--页脚--> 
 <div class="footer">
-  <p>Copyright &#169 2020 Webfundamental Dantui Suisui. All Rights Reserved. 备案号：沪ICP备9034870</p>
+  <p>Copyright &#233 2020 Webfundamental Dyingfish Alive. All Rights Reserved. 备案号：沪ICP备18307110072号</p>
 </div>
 </body>
 </html>

@@ -39,6 +39,7 @@
   padding:10px 1.5%;
 }
 .images{
+   /*图片比例设置为4:3，随浏览器窗口大小变化，超出部分隐藏*/
   width: 24vw;
   height:18vw;
   min-width: 240px;
@@ -62,6 +63,7 @@
   padding: 1px 5% 10px 1%;
 }
 .word p{
+   /*文字超过四行时（包括简介一行）省略*/
   display: -webkit-box;
 -webkit-box-orient: vertical;
 -webkit-line-clamp: 4;

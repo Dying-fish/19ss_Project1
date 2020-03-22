@@ -15,7 +15,7 @@ body {
 /*用flex布局，将剩余空间全赋给主体区域*/
 .logo{
     flex: 1 0 auto;
-    padding-top: 5%;
+    padding-top: 3%;
     text-align: center;
     color:#333366;
     min-height: 100%;
@@ -43,7 +43,7 @@ body {
     border: 1px solid #999999;
     border-radius: 12px;
     background-color: #FFFFFF;
-    margin:1% 35% 0;
+    margin:1% 35% 0;    /*使注册栏居中*/
     font-size: 18px;
     font-weight: 550;
     padding: 2% 2% 1.5%;

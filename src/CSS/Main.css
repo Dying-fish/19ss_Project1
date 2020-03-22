@@ -32,6 +32,7 @@ h2{
     opacity: 0.9;
 }
 .recommend p{
+    /*文字超过一行时省略*/
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
@@ -64,7 +65,8 @@ h2{
     position: fixed;
     display: block;
     right: 10px;
-    bottom:100px;
+    color:black;
+    bottom:230px;
     cursor: pointer;
     z-index:9999;
 }
@@ -78,9 +80,13 @@ h2{
     display: block;
     position: fixed;
     right: 10px;
-    bottom:50px;
+    bottom:180px;
     cursor: pointer;
     z-index:9999;
+}
+/*点击时变色*/
+#arrowup:active{
+    color:red;
 }
 @media screen and (max-width: 1000px){
     .recommend{
@@ -104,11 +110,11 @@ h2{
         font-size: 24px;
     }
     .img{
-        width:90vw;
-        height:90vw;
+        width:85vw;
+        height:85vw;
     }
     .img a{
-        width:90vw;
-        height:90vw;
+        width:85vw;
+        height:85vw;
     }
 }
