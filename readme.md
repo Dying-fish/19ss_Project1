@@ -8,7 +8,7 @@ Github地址：https://github.com/Dying-fish/19ss_Project1
 Github Pages地址： https://dying-fish.github.io/19ss_Project1/
 ## 项目完成情况 ##
 ### 主页 ###
-![](images/sreenshots/主页.png)
+![](images\screenshots\主页.png)
 #### 导航栏 ####
 导航栏与下拉菜单如图所示，首页旁边心血来潮地添加了logo，没有单独成列。首页高亮，颜色与鼠标悬浮时颜色不一致。
 #### 头图 ####
@@ -16,11 +16,12 @@ Github Pages地址： https://dying-fish.github.io/19ss_Project1/
 #### 图片展示 ####
 布局和示例相似，此处使用的是自由版式的图片，解决方案在Bonus部分。图片描述设置成了文字超过一行就会省略。添加了一个“今日推荐”的标题，假装有这个功能。
 #### 辅助图标 ####
-![](images/sreenshots/辅助图标.png)
+![](images/screenshots/辅助图标.png)
 使用positon：fixed固定在右侧，在浏览器窗口缩放时会显示在图片上方（感觉对观感影响不大）
 #### 页脚 ####
 页面右侧附上了我本人的微信二维码，底部备案号是我的学号。用户协议等均可点击但不会有反应，没有设置超链接。QQ图标等点击后会毫无意义地跳转至该软件的官网。
 ### 浏览页 ###
+![](images/screenshots/浏览页.png)
 #### 导航栏 ####
 浏览页显示高亮
 #### 左侧边栏 ####
