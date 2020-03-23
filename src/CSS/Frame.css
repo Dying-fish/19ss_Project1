@@ -10,7 +10,7 @@
 /*标题*/
 .title{
   padding: 12px;
-  font-size: large;
+  font-size: 14pt;
   font-weight: bold;
   background-color:#336699;
   color:white;
@@ -57,17 +57,37 @@
   min-width: 240px;
   min-height: 180px;
 }
+/*图片背景设置*/
+.one{
+  background-image: url(../../images/small/5856654945.jpg);
+}
+.two{
+  background-image: url(../../images/small/5856658791.jpg);
+}
+.three{
+  background-image: url(../../images/small/6114867983.jpg);
+}
+.four{
+  background-image: url(../../images/small/9498388516.jpg);
+}
+.five{
+background-image: url(../../images/small/9494470337.jpg);
+}
 /*缩略图文字部分*/
 .word{
   flex: auto;
   padding: 1px 5% 10px 1%;
 }
+.word h2{
+  font-size: 16pt;
+}
 .word p{
    /*文字超过四行时（包括简介一行）省略*/
+   font-size: 12pt;
   display: -webkit-box;
--webkit-box-orient: vertical;
--webkit-line-clamp: 4;
-overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
 }
 .Date{
   color: lightslategray;
@@ -76,7 +96,7 @@ overflow: hidden;
 /*设置按钮*/
 input[type=submit]{
   padding: 8px 12px;
-  font-size: medium;
+  font-size: 12pt;
   font-weight: bold;
   cursor: pointer;
   color: #FFFFFF;
@@ -119,7 +139,7 @@ input[type=submit]{
 .pagebutton li a {
   float: left;
   display: block;
-  font-size: 14px;
+  font-size: 12pt;
   text-decoration: none;
   color: #333399;
   border: 1px solid transparent;
@@ -147,9 +167,9 @@ input[type=submit]{
     height:30vw;
   }
   .word h2{
-    font-size: 20px;
+    font-size: 15pt;
   }
   .word p{
-    font-size: 16px;
+    font-size: 11pt;
   }
 }

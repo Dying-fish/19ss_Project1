@@ -40,7 +40,7 @@
 .title-search input{
     min-width: 80%;
     border: none;
-    font-size: 16px;
+    font-size: 12pt;
     padding: 12px 0;
 }
 /*搜索栏按钮*/
@@ -61,7 +61,7 @@ select{
     height: 90%;
     width: 15%;
     min-width: max-content;
-    font-size: 14px;
+    font-size: 11pt;
     border-radius: 5px;
 }
 /*筛选按钮设置*/

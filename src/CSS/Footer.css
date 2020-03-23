@@ -1,7 +1,7 @@
 /*大部分网页的页脚部分*/
 .footer p{
     margin-left: 1.5%;
-    font-size: xx-small;
+    font-size: 10pt;
 }
 /*主页的页脚部分*/
 #footer{
@@ -16,7 +16,7 @@
 #footer p{
     flex-grow: 1;
     text-align: center;
-    font-size: x-small;
+    font-size: 10pt;
 }
 .section{
     text-align: center;
@@ -26,6 +26,7 @@
     list-style-type: none;
 }
 .section li{
+    font-size: 12pt;
     margin-top: 5%;
 }
 .section li a{
@@ -43,6 +44,11 @@
 .section img{
     width: 100%;
     max-width:110px;
+}
+@media screen and (max-width:1000px){
+    .footer p{
+        font-size: 9pt;
+    }
 }
 @media screen and (max-width: 600px){
     #footer{

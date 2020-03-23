@@ -36,7 +36,7 @@
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 12pt;
     padding: 5px 12px;
 }
 /*设置按钮*/
@@ -63,7 +63,7 @@ input[type=button]{
 }
 /*字体大小*/
 .input span{
-    font-size: 18px;
+    font-size: 14pt;
 }
 /*文本框样式设置*/
 textarea{
@@ -72,7 +72,7 @@ textarea{
     width: 95%;
     border: 1px solid #cccccc;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 12pt;
     padding: 5px 12px;
     /*禁止缩放*/
     resize:none;

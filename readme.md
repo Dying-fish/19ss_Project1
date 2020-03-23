@@ -7,8 +7,9 @@ Github地址：https://github.com/Dying-fish/19ss_Project1
 
 Github Pages地址： https://dying-fish.github.io/19ss_Project1/
 ## 项目完成情况 ##
-### 主页 ###
-![](images\screenshots\主页.png)
+### ***主页*** ###
+<div align=center><img src="images\screenshots\主页.png" /></div>
+
 #### 导航栏 ####
 导航栏与下拉菜单如图所示，首页旁边心血来潮地添加了logo，没有单独成列。首页高亮，颜色与鼠标悬浮时颜色不一致。
 #### 头图 ####
@@ -16,12 +17,14 @@ Github Pages地址： https://dying-fish.github.io/19ss_Project1/
 #### 图片展示 ####
 布局和示例相似，此处使用的是自由版式的图片，解决方案在Bonus部分。图片描述设置成了文字超过一行就会省略。添加了一个“今日推荐”的标题，假装有这个功能。
 #### 辅助图标 ####
-![](images/screenshots/辅助图标.png)
+<div align=center><img src="images/screenshots/辅助图标.png" /></div>
+
 使用positon：fixed固定在右侧，在浏览器窗口缩放时会显示在图片上方（感觉对观感影响不大）
 #### 页脚 ####
 页面右侧附上了我本人的微信二维码，底部备案号是我的学号。用户协议等均可点击但不会有反应，没有设置超链接。QQ图标等点击后会毫无意义地跳转至该软件的官网。
-### 浏览页 ###
-![](images/screenshots/浏览页.png)
+### ***浏览页*** ###
+<div align=center><img src="images/screenshots/浏览页.png" /></div>
+
 #### 导航栏 ####
 浏览页显示高亮
 #### 左侧边栏 ####
@@ -50,18 +53,28 @@ function changeSelect() {
 ```
 #### 浏览结果 ####
 如图所示，有页码（摆设）
-### 搜索页 ###
+### ***搜索页*** ###
+<div align=center><img src="images/screenshots/搜索页.png"/></div>
+
 #### 导航栏 ####
 搜索页高亮
 #### 搜索栏 ####
 有标题查询与描述查询，回车键依旧没反应，需要点击查找按钮。标题查询输入时有动画效果，是学(jie)自(jian)菜鸟驿站的教程。
 #### 搜索结果 ####
 图片，标题，简(ge)介(ci)与上传日期，没有选择用js直接把浏览时间作为上传日期显示，有摆设的页码。
-### 我的照片 ###
+### ***我的照片*** ###
+<div align=center><img src="images/screenshots/我的照片.png"/></div>
+
 与搜索页的搜索结果区别不大，多了两个按钮，点击有反应。
-### 我的收藏 ###
+### ***我的收藏*** ###
+<div align=center><img src="images/screenshots/我的收藏.png"/></div>
+
 同上
-### 上传页面 ###
+### ***上传页面*** ###
+<div align=center><img src="images/screenshots/上传.png"/></div>
+
+#### 照片信息填写 ####
+如图，没有设置必填选项，文本框部分设置为无法缩放，因此最多显示三行文字（可以下拉），点击提交按钮后可以跳转至**我的照片**。
 #### 照片上传部分 ####
 html中限制了上传文件的类型
 ```html
@@ -86,15 +99,22 @@ function showFile() {
   }
 }
 ```
-效果如下
-#### 照片信息填写 ####
-如图，没有设置必填选项，文本框部分设置为无法缩放，因此最多显示三行文字（可以下拉），点击提交按钮后可以跳转至**我的照片**。
+效果如下：
+<div align=center><img src="images/screenshots/上传前.png"/></div>
+<div align=center><img src="images/screenshots/上传时.png"/></div>
+<div align=center><img src="images/screenshots/上传后.png"/></div>
+
 ### 照片详情页 ###
+<div align=center><img src="images/screenshots/详情.png"/></div>
+
 #### 页面 ####
 如图，最上方是标题，左侧是垂直居中的图片，右侧是图片信息，信息中包含作者（点击按钮后弹出“已关注”），标签与热度（展示该图片已被收藏的数量），还有收藏按钮，点击弹出“已收藏”。
 #### 图片描述 ####
 字面意思，右下角有图片上传时间（
 ### 登录/注册界面 ###
+<div align=center><img src="images/screenshots/登录.png"/></div>
+<div align=center><img src="images/screenshots/注册.png"/></div>
+
 #### 标志 ####
 从font-awesome中选取的，觉得好看且不做商用就用了。
 #### 欢迎语 ####

@@ -19,7 +19,7 @@
 /*标题*/
 .title{
     padding: 12px;
-    font-size: large;
+    font-size: 14pt;
     font-weight: bold;
     background-color:#336699;
     color:white;
@@ -59,13 +59,14 @@ img{
     border: 1px solid #999999;
     padding: 0;
     overflow: hidden;
+    z-index:0;
 }
 #tags li{
     border-top: 1px solid #999999;
     padding: 5px 1%;
 }
 /*小标题*/
-#title{
+.small-title{
     font-weight:bold;
     background-color:whitesmoke;
     color:#666666;
@@ -79,14 +80,14 @@ img{
 /*上传日期格式*/
 time{
     float: right;
-    font-size: 14px;
+    font-size: 12pt;
     color: #999999;
 }
 /*按钮*/
 button{
     margin: 5px 10%;
     padding: 8px 12px;
-    font-size: medium;
+    font-size: 12pt;
     font-weight: bold;
     cursor: pointer;
     color: #FFFFFF;
@@ -105,7 +106,7 @@ button{
 }
 @media screen and (max-width: 1000px){
     .title{
-        font-size: 16px;
+        font-size: 16pt;
     }
     #img{
         padding-right: 1%;
@@ -124,12 +125,6 @@ button{
     }
     button{
         margin: 5px 0;
-    }
-    h3{
-        font-size: 16px;
-    }
-    p{
-        font-size: 14px;
     }
     #collect{
         margin-bottom: 20px;

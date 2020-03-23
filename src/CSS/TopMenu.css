@@ -20,6 +20,7 @@ body {
     float: left;
 }
 .topmenu li a, .drop {
+    font-size: 14pt;
     min-width:120px;
     display: block;
     color: white;
@@ -47,8 +48,9 @@ body {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 120px;
+    min-width: 135px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 9999;
 }
 .dropdown-content a {
     display: block;

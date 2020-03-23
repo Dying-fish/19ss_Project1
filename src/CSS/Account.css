@@ -22,14 +22,14 @@ body {
 }
 /*标语设置*/
 #xll{
-    font-size: 20px;
+    font-size: 16pt;
     letter-spacing: 3px;
     color: #333333;
     font-weight: bold;
 }
 /*居中文字设置*/
 .logo p{
-    font-size: 16px;
+    font-size: 14pt;
     font-weight: normal;
 }
 /*超链接样式*/
@@ -44,7 +44,7 @@ body {
     border-radius: 12px;
     background-color: #FFFFFF;
     margin:1% 35% 0;    /*使注册栏居中*/
-    font-size: 18px;
+    font-size: 14pt;
     font-weight: 550;
     padding: 2% 2% 1.5%;
     color: #336699;
@@ -56,14 +56,14 @@ body {
     box-sizing: border-box;
     border: 1px solid #CCCCCC;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 14pt;
     padding: 5px 12px;
 }
 /*提交按钮设置，用渐变色使按钮突出*/
 #jump{
     width: 100%;
     margin: 3% 0 0;
-    font-size: 18px;
+    font-size: 16pt;
     font-weight: 550;
     color: #FFFFFF;
     background-image: linear-gradient(to bottom,#99CC00,#339933);
@@ -74,7 +74,7 @@ body {
 .footer{
     padding-left: 1.5%;
     width: 100%;
-    font-size: 12px;
+    font-size: 10pt;
     flex: 0 0 auto;
 }
 @media screen and (max-width: 1000px){
@@ -86,7 +86,7 @@ body {
         flex:0 0 auto;
     }
     .logo p{
-        font-size: 20px;
+        font-size: 20pt;
     }
     .account{
     margin:1% 20% 0;

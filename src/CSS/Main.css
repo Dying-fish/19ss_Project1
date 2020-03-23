@@ -13,11 +13,12 @@
 /*标语*/
 h1{
     color: #006699;
-    font-size: xx-large;
+    font-size: 24pt;
     text-align: center;
 }
 /*拉近标题与文字距离*/
 h2{
+    font-size: 16pt;
     margin-bottom: -0.8%;
 }
 /*图片相框的设置*/
@@ -33,6 +34,7 @@ h2{
 }
 .recommend p{
     /*文字超过一行时省略*/
+    font-size: 12pt;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
@@ -107,7 +109,7 @@ h2{
         width: 95vw;
     }
     h1{
-        font-size: 24px;
+        font-size: 20pt;
     }
     .img{
         width:85vw;
