@@ -94,7 +94,7 @@ background-image: url(../../images/small/9494470337.jpg);
   font-size: small;
 }
 /*设置按钮*/
-input[type=submit]{
+input[type=button]{
   padding: 8px 12px;
   font-size: 12pt;
   font-weight: bold;
@@ -102,7 +102,7 @@ input[type=submit]{
   color: #FFFFFF;
   border-radius: 3px;
   width: 10%;
-  min-width: fit-content;
+  min-width: max-content;
 }
 /*设置删除，收藏的按钮颜色*/
 .collection, .delete{
@@ -165,6 +165,9 @@ input[type=submit]{
   .images a{
     widows: 40vw;
     height:30vw;
+  }
+  .word{
+    padding: 1px 2% 10px 1%;
   }
   .word h2{
     font-size: 15pt;
