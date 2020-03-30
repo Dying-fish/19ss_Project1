@@ -159,15 +159,15 @@ input[type=button]{
 
 @media screen and (max-width: 1000px){
   .images{
-    width: 40vw;
-    height:30vw;
+    width: 36vw;
+    height:27vw;
   }
   .images a{
-    widows: 40vw;
-    height:30vw;
+    widows: 36vw;
+    height:327vw;
   }
   .word{
-    padding: 1px 2% 10px 1%;
+    padding: 1px 2% 10px 2%;
   }
   .word h2{
     font-size: 15pt;
