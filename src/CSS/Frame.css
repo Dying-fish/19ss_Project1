@@ -158,6 +158,9 @@ input[type=button]{
 }
 
 @media screen and (max-width: 1000px){
+  #images{
+    padding: 10px;
+  }
   .images{
     width: 36vw;
     height:27vw;
@@ -167,7 +170,7 @@ input[type=button]{
     height:327vw;
   }
   .word{
-    padding: 1px 2% 10px 2%;
+    padding: 1px 2% 10px 10px;
   }
   .word h2{
     font-size: 15pt;
