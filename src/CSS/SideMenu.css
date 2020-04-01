@@ -91,6 +91,7 @@ select{
 }
 /*图片大小设置*/
 .thumb{
+    background-color: aliceblue;
     margin: auto;
     overflow: hidden;
     background-position:center;

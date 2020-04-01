@@ -46,6 +46,7 @@ h2{
     width: 27vw;
     height: 27vw;
     overflow: hidden;
+    background-color: #ffffff;
     background-position:center;
     background-size: cover;
     border-radius: 8px;
@@ -55,6 +56,25 @@ h2{
     display: block;
     width: 27vw;
     height: 27vw;
+}
+/*图片*/
+.one{
+    background-image: url(../../images/medium/9504613978.jpg);
+}
+.two{
+    background-image: url(../../images/medium/8152045688.jpg);
+}
+.three{
+    background-image: url(../../images/medium/9494464567.jpg);
+}
+.four{
+    background-image: url(../../images/medium/8152045872.jpg);
+}
+.five{
+    background-image: url(../../images/medium/8710247776.jpg);
+}
+.six{
+    background-image: url(../../images/medium/6119130918.jpg);
 }
 /*辅助图标*/
 #arrowup{

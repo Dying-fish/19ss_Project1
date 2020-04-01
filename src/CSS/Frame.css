@@ -46,6 +46,7 @@
   min-height: 180px;
   margin: auto;
   overflow: hidden;
+  background-color: aliceblue;
   background-position:center;
   background-size: cover;
   border-radius: 1px;
