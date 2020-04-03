@@ -33,6 +33,10 @@
     color:white;
     text-decoration: none;
 }
+/*悬浮时变色*/
+.section li a:hover{
+    color:black;
+}
 .section li i{
     margin: 1% 2%;
 }

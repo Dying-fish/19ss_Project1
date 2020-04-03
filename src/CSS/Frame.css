@@ -36,6 +36,7 @@
 /*缩略图部分*/
 #images{
   flex:auto;
+  width:max-content;
   padding:10px 1.5%;
 }
 .images{
